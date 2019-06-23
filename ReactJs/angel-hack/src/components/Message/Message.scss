@@ -1,0 +1,51 @@
+.message{
+
+    padding-top: 15px;
+    .message-text-left{
+        text-align: left;
+
+        section{
+            padding: 10px 5px 10px 30px;
+            border: 2px solid #078447;
+            width: auto;
+            position: relative;
+            max-width: 400px;
+            border-radius: 15px;
+
+            figure{
+                display: inline-block;
+                img{
+                    position: absolute;
+                    bottom: -13px;
+                    left: -13px;
+                    width: 35px;
+                }
+            }
+        }
+    }
+    
+    .message-text-right{
+        text-align: right;
+        section{
+            border: 2px solid #078447;
+            width: auto;
+            position: relative;
+            max-width: 400px;
+            border-radius: 15px;
+            display: inline-block;
+            padding: 10px 30px 10px 5px;
+            text-align: left;
+            
+
+            figure{
+                display: inline-block;
+                img{
+                    position: absolute;
+                    bottom: -13px;
+                    right: -13px;
+                    width: 35px;
+                }
+            }
+        }
+    }
+}

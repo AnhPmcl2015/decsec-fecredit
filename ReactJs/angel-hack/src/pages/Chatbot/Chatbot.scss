@@ -1,0 +1,13 @@
+#chatbot{
+    .col-8{
+        padding-top: 15px;
+        border-left: 2px solid #078447;
+    }
+
+    #message-box{
+        height: 550px;
+        .message-text-area{
+            height: 400px;
+        }
+    }
+}
